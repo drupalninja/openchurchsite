@@ -37,7 +37,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-secondary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -47,7 +48,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-secondary:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -73,6 +75,15 @@ hr.star-primary {
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
+}
+
+hr.star-secondary {
+  border-color: #fff;
+}
+
+hr.star-secondary:after {
+  color: #fff;
+  background-color: #{{ site.color.secondary }};
 }
 
 .img-centered {
@@ -188,6 +199,14 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.secondary {
+  background: #{{ site.color.secondary }};
+}
+
+section.secondary h2 {
+  color: #fff;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -253,6 +272,10 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+.btn-success:hover {
+  background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-outline {
@@ -335,11 +358,6 @@ footer {
 
 footer h3 {
     margin-bottom: 30px;
-}
-
-footer .footer-above {
-    padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
