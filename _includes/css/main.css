@@ -476,3 +476,31 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+// OpenChurch hosting
+#hosting .panel-footer {
+  text-align: center;
+}
+
+#hosting .panel-footer form {
+  text-align: center;
+}
+
+#hosting .panel-footer table {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 17px;
+}
+
+#hosting .panel-footer select {
+  border: 1px solid #ccc;
+}
+
+#hosting .panel-footer input {
+  border: 0;
+}
+
+#hosting .panel-body .lead {
+  margin-bottom: 0;
+}
