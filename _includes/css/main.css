@@ -504,3 +504,11 @@ footer .footer-below {
 #hosting .panel-body .lead {
   margin-bottom: 0;
 }
+
+header .intro-text .skills {
+  margin-left: 5px;
+}
+
+.hosting-modal .modal-body {
+  text-align: left;
+}
