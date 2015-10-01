@@ -1,9 +1,9 @@
 # Site settings
 title: OpenChurch
 email: info@openchurchsite.com
-url: http://drupalninja.github.io/openchurchsite/
+url: http://openchurchsite.com/
 description: "The OpenChurch distribution is for churches and ministries. It is a flexible platform with common features for churches that can help streamline development of these websites."
-skills: "Open source - Drupal CMS - Churches & Ministries"
+skills: "Church Website Building Made Easy"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
